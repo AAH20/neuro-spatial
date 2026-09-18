@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuro-spatial"
+version = "0.1.0"
+description = "Neuromorphic Event-Camera & Continuous-Time Neural-ODE World Model for High-Speed Robotic Perception."
+readme = "README.md"
+authors = [
+  { name = "Ahmed Hassan", email = "ahmed@a2zsoc.com" }
+]
+license = { text = "Apache-2.0" }
+keywords = [
+  "neuromorphic-vision",
+  "event-camera",
+  "dynamic-vision-sensor",
+  "dvs",
+  "neural-ode",
+  "continuous-time-ai",
+  "robotics-perception",
+  "sub-millisecond-latency",
+  "high-speed-tracking",
+  "extreme-hdr",
+  "prophesee",
+  "spiking-neural-network",
+  "spatial-intelligence"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+neuro-spatial = "neuro_spatial.cli:main"
